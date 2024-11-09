@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# CollegeOne 🏫
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CollegeOne is a comprehensive mobile application designed to simplify the administrative processes in educational institutions. This app manages student profiles, streamlines onboarding, handles leave applications, facilitates fee submissions, and oversees various other student-related tasks to improve efficiency for students and administrators alike.
 
-## Get started
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
 
-1. Install dependencies
+## About
+**CollegeOne** serves as a one-stop solution for managing several institutional administrative tasks. By digitizing these processes, the app enables educational institutions to operate more efficiently and enhance student experience.
 
+## Features
+- **Student Profile Management**: Manage detailed profiles of each student.
+- **Onboarding**: Streamlined onboarding process for new students.
+- **Leave Applications**: Submit, review, and track leave applications.
+- **Fee Submissions**: Digital fee submission, with tracking and notifications.
+- **Other Processes**: Customizable workflows for handling additional student-related processes.
+
+## Tech Stack
+- **Frontend**: React Native (using Expo for cross-platform compatibility)
+- **Backend**: Appwrite
+- **Routing**: `expo-router`
+- **UI/UX**: Tailwind CSS (using NativeWind for React Native compatibility)
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- A code editor like [Visual Studio Code](https://code.visualstudio.com/)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/CollegeOne.git
+
+2. Navigate to the project directory:
+   ```bash 
+   cd CollegeOne3.Install dependencies:
+
+
+3. install dependncies
    ```bash
    npm install
-   ```
 
-2. Start the app
-
+4. Start the Expo development server:
    ```bash
-    npx expo start
-   ```
+   expo start
 
-In the output, you'll find options to open the app in a
+5. Follow the Expo CLI prompts to open the app in an emulator or on a physical device using the Expo Go app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Usage
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Signup/Login: Users can sign up with a college email or log in if they already have an account.
+- Student Dashboard: Access personal details, leave applications, and fee submission status.
+- Administrative Access: Allows admins to view, approve, or deny leave requests, and manage other student-related data.
+- Notifications: Students receive notifications for onboarding steps, fee submission reminders, and leave application updates.
 
-## Get a fresh project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
